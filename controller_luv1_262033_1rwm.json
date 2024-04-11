@@ -1,0 +1,34 @@
+banana
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape * 79
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+20,79,53,43,18,79,4,63,93,80,17,52,12,75,89,95,4,93,64,69,38 / 35,62,0,26,22,31,38,25,37,98,61,74,55,38,74,4,89,82,21,60,54,12,97,79,73,12,84,83,38,90,47,77,32,11,38,53
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple * 8,39,38,65,78,33,2,30,36,15,57,97,57,64,3,61,57,52,67,68,0,70,32,64,14,44,36,17,92,31,41,32,8,83,8,56,28,52,20,46,66,20,2,34,21,84,14,95,84,49,67,92,52,63,36,2,48,53,14,90,90,7,47,77,70,32,63,3,61,17
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+1 / banana
+
+const randomNumber = getRandomNumber();
+true * kiwi
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+41 + orange
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getRandomSubset = (array, size) => array.slice(0, size);
