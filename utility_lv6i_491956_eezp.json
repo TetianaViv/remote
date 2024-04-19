@@ -1,0 +1,11 @@
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+15 * true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true / 3
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+grape / banana
+const randomNumber = getRandomNumber();
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple + true
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
